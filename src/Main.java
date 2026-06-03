@@ -6,8 +6,8 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage stage) {
-        Label label = new Label("TEST2");
-        Scene scene = new Scene(label, 400, 300);
+        Label label = new Label("TEST3");
+        Scene scene = new Scene(label, 1000, 600);
 
         stage.setTitle("Cookie Clicker 2");
         stage.setScene(scene);
